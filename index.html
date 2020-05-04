@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuda</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <nav class="appear__menu" id="dropdown__menu">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="wrapper">
+            <div class="header__content">
+                <div class="header__logo">
+                    <img src="./images/logo.png" alt="cuda">
+                </div>
+                <nav class="header__navigation">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">work</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__burgermenu" onclick="transform(this)">
+                    <div class="header__burgermenu_item1"></div>
+                    <div class="header__burgermenu_item2"></div>
+                    <div class="header__burgermenu_item3"></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--
+            section 1,, greeting
+        -->
+        <div class="greeting">
+            <div class="wrapper">
+                <div class="greeting__content">
+                    <h2 class="greeting__text">
+                        Hi there! We are the new kids on the block<br>and we build awesome
+                        websites and mobile apps.
+                    </h2>
+                    <a href="#" class="greeting__button">
+                        work with us
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 2,, services we provide
+        -->
+        <div class="services">
+            <div class="wrapper">
+                <div class="services__content">
+                    <div class="services__titles">
+                        <h2 class="services__titles_heading heading">
+                            services we provide
+                        </h2>
+                        <h3 class="services__titles_subheading subheading">
+                            We are working with both individual and businesses 
+                            from all over the globe to create awesome websites
+                            and applications.
+                        </h3>
+                    </div>
+                    <div class="services__content_servicekinds">
+                        <div class="serviceskinds__servicebox1">
+                            <div class="serviceskinds__branding serviceskinds__service">
+                                <div class="branding__image service__image">
+                                    <img src="./images/flag.png" alt="flag">
+                                </div>
+                                <div class="branding__text service__text">
+                                    <h4 class="branding__heading service__heading">
+                                        branding
+                                    </h4>
+                                    <h5 class="branding__description service__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                                        elit. Exercitationem.
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="serviceskinds__design serviceskinds__service">
+                                <div class="design__image service__image">
+                                    <img src="./images/pencil.png" alt="pencil">
+                                </div>
+                                <div class="design__text service__text">
+                                    <h4 class="design__heading service__heading">
+                                        design
+                                    </h4>
+                                    <h5 class="design__description service__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Tempora, ducimus?
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="serviceskinds__servicebox2">
+                            <div class="serviceskinds__development serviceskinds__service">
+                                <div class="development__image service__image">
+                                    <img src="./images/cogs.png" alt="cogs">
+                                </div>
+                                <div class="development__text service__text">
+                                    <h4 class="development__heading service__heading">
+                                        development
+                                    </h4>
+                                    <h5 class="development__description service__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Accusamus.
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="serviceskinds__rocket serviceskinds__service">
+                                <div class="rocket__image service__image">
+                                    <img src="./images/rocket.png" alt="rocket">
+                                </div>
+                                <div class="rocket__text service__text">
+                                    <h4 class="rocket__heading service__heading">
+                                        rocket science
+                                    </h4>
+                                    <h5 class="rocket__description service__description">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        A maiores.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 3,, meet our beatiful team
+        -->
+        <div class="team">
+            <div class="wrapper">
+                <div class="team__content">
+                    <div class="team__titles">
+                        <h2 class="team__titles_heading heading">
+                            meet our beautiful team
+                        </h2>
+                        <h3 class="team__titles__subheading subheading">
+                            We are a small team of designers, who help
+                            brands with big ideas.
+                        </h3>
+                    </div>
+                    <div class="team__members">
+                        <div class="team__memberbox1">
+                            <div class="team__member1 team__member">
+                                <div class="member1__photo member__photo">
+                                    <img src="./images/memberphoto1.png" alt="woman">
+                                </div>
+                                <div class="member1__text member__text">
+                                    <div class="member1__nameprof member__nameprof">
+                                        <h4 class="member1__name member__name">
+                                            anne hathaway
+                                        </h4>
+                                        <h5 class="member1__profession member__profession">
+                                            CEO / Marketing Guru
+                                        </h5>
+                                        <p class="member1__description member__description">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Perferendis sed eligendi eaque perspiciatis voluptas.
+                                        </p>
+                                        <div class="member1__medias member__medias">
+                                            <div class="member1__media_facebook member__media">
+                                                <img src="./images/facebookicon.png" alt="facebook">
+                                            </div>
+                                            <div class="member1__media_twitter member__media">
+                                                <img src="./images/twittericon.png" alt="twitter">
+                                            </div>
+                                            <div class="member1__media_linkedin member__media">
+                                                <img src="./images/linkedInicon.png" alt="linkedin">
+                                            </div>
+                                            <div class="member1__media_mail member__media">
+                                                <img src="./images/mailicon.png" alt="mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__member2 team__member">
+                                <div class="member2__photo member__photo">
+                                    <img src="./images/memberphoto2.jpg" alt="woman">
+                                </div>
+                                <div class="member2__text member__text">
+                                    <div class="member2__nameprof member__nameprof">
+                                        <h4 class="member2__name member__name">
+                                            kate upton
+                                        </h4>
+                                        <h5 class="member2__profession member__profession">
+                                            Creative Director
+                                        </h5>
+                                        <p class="member2__description member__description">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Perferendis sed eligendi eaque perspiciatis voluptas.
+                                        </p>
+                                        <div class="member2__medias member__medias">
+                                            <div class="member2__media_twitter member__media">
+                                                <img src="./images/twittericon.png" alt="twitter">
+                                            </div>
+                                            <div class="member2__media_linkedin member__media">
+                                                <img src="./images/linkedInicon.png" alt="linkedin">
+                                            </div>
+                                            <div class="member2__media_mail member__media">
+                                                <img src="./images/mailicon.png" alt="mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__memberbox2">
+                            <div class="team__member3 team__member">
+                                <div class="member3__photo member__photo">
+                                    <img src="./images/memberphoto3.jpg" alt="woman">
+                                </div>
+                                <div class="member3__text member__text">
+                                    <div class="member3__nameprof member__nameprof">
+                                        <h4 class="member3__name member__name">
+                                            olivia wilde
+                                        </h4>
+                                        <h5 class="member3__profession member__profession">
+                                            Lead Designer
+                                        </h5>
+                                        <p class="member3__description member__description">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Perferendis sed eligendi eaque perspiciatis voluptas.
+                                        </p>
+                                        <div class="member3__medias member__medias">
+                                            <div class="member3__media_facebook member__media">
+                                                <img src="./images/facebookicon.png" alt="facebook">
+                                            </div>
+                                            <div class="member3__media_twitter member__media">
+                                                <img src="./images/twittericon.png" alt="twitter">
+                                            </div>
+                                            <div class="member3__media_linkedin member__media">
+                                                <img src="./images/linkedInicon.png" alt="linkedin">
+                                            </div>
+                                            <div class="member3__media_mail member__media">
+                                                <img src="./images/mailicon.png" alt="mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__member4 team__member">
+                                <div class="member4__photo member__photo">
+                                    <img src="./images/memberphoto4.jpg" alt="woman">
+                                </div>
+                                <div class="member4__text member__text">
+                                    <div class="member4__nameprof member__nameprof">
+                                        <h4 class="member4__name member__name">
+                                            ashley green
+                                        </h4>
+                                        <h5 class="member4__profession member__profession">
+                                            SEO / Developer
+                                        </h5>
+                                        <p class="member4__description member__description">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Perferendis sed eligendi eaque perspiciatis voluptas.
+                                        </p>
+                                        <div class="member4__medias member__medias">
+                                            <div class="member4__media_twitter member__media">
+                                                <img src="./images/twittericon.png" alt="twitter">
+                                            </div>
+                                            <div class="member4__media_linkedin member__media">
+                                                <img src="./images/linkedInicon.png" alt="linkedin">
+                                            </div>
+                                            <div class="member4__media_mail member__media">
+                                                <img src="./images/mailicon.png" alt="mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 4,, we got skills
+        -->
+        <div class="skills">
+            <div class="wrapper">
+                <div class="skills__content">
+                    <div class="skills__titles">
+                        <h2 class="skills__titles_heading heading">
+                            we got skills!
+                        </h2>
+                        <h3 class="skills__titles_subheading subheading">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsam tempore quasi dolor cumque obcaecati possimus numquam.
+                        </h3>
+                    </div>
+                    <div class="skills__diagrams">
+                        <div class="skill__daigrambox1">
+                            <div class="skill__diagram1">
+                                <svg class="svg__diagram1" viewbox="0 0 160 160" width="160" height="160">
+                                    <circle class="diagram1__chart_background"
+                                    stroke="#dfe8ed" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70"  />
+                                    <circle class="diagram1__chart_circle"
+                                    stroke="#30bae7" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70" stroke-linecap="round"
+                                    stroke-dasharray="395.64, 439.6" />
+                                </svg>
+                                    <span class="diagram__percent">90<span>%</span></span>
+                                <h4 class="skill__name">
+                                    web design
+                                </h4>
+                            </div>
+                            <div class="skill__diagram2">
+                                <svg class="svg__diagram2" viewbox="0 0 160 160" width="160" height="160">
+                                    <circle class="diagram2__chart_background"
+                                    stroke="#dfe8ed" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70"  />
+                                    <circle class="diagram2__chart_circle"
+                                    stroke="#d74680" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70" stroke-linecap="round"
+                                    stroke-dasharray="329.7, 439.6" />
+                                    </svg>
+                                    <span class="diagram__percent">75<span>%</span></span>
+                                <h4 class="skill__name">
+                                    html / css
+                                </h4> 
+                            </div>
+                        </div>
+                        <div class="skill__daigrambox2">
+                            <div class="skill__diagram3">
+                                <svg class="svg__diagram3" viewbox="0 0 160 160" width="160" height="160">
+                                    <circle class="diagram3__chart_background"
+                                    stroke="#dfe8ed" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70"  />
+                                    <circle class="diagram2__chart_circle"
+                                    stroke="#15c7a8" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70" stroke-linecap="round"
+                                    stroke-dasharray="307.72, 439.6" />
+                                </svg>
+                                <span class="diagram__percent">70<span>%</span></span>
+                                <h4 class="skill__name">
+                                    graphic design
+                                </h4> 
+                            </div>
+                            <div class="skill__diagram4">
+                                <svg class="svg__diagram4" viewbox="0 0 160 160" width="160" height="160">
+                                    <circle class="diagram4__chart_background"
+                                    stroke="#dfe8ed" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70"  />
+                                    <circle class="diagram2__chart_circle"
+                                    stroke="#eb7d4b" stroke-width="13" fill="none"
+                                    cx="80" cy="80" r="70" stroke-linecap="round"
+                                    stroke-dasharray="373.66, 439.6" />
+                                </svg>
+                                <span class="diagram__percent">85<span>%</span></span>
+                                <h4 class="skill__name">
+                                    ui / ux
+                                </h4> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 5,, our portfolio
+        -->
+        <div class="portfolio">
+            <div class="wrapper">
+                <div class="portfolio__content">
+                    <div class="portfolio__titles">
+                        <h2 class="portfolio__titles_heading heading">
+                            our portfolio
+                        </h2>
+                        <h3 class="portfolio__titles_subheading subheading">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fugiat minus cum maxime totam! Doloremque.
+                        </h3>
+                    </div>
+                    <div class="portfolio__items">
+                        <div class="portfolio__items_nav">
+                            <ul>
+                                <li><a href="#">all</a></li>
+                                <li><a href="#">web</a></li>
+                                <li><a href="#">apps</a></li>
+                                <li><a href="#">icons</a></li>
+                            </ul>
+                        </div>
+                        <div class="portfolio__items_examples">
+                            <div class="items__line1">
+                                <div class="items__laptop1 items__laptop">
+                                    <div class="laptop1__image laptop__image">
+                                        <img src="./images/notebook1.png" alt="laptop">
+                                    </div>
+                                    <h4 class="laptop1__label laptop__label">
+                                        isometric perspective mock-up
+                                    </h4>
+                                </div>
+                                <div class="items__laptop2 items__laptop">
+                                    <div class="laptop2__image laptop__image">
+                                        <img src="./images/notebook2.png" alt="laptop">
+                                    </div>
+                                    <h4 class="laptop2__label laptop__label">
+                                        time zone app ui
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="items__line2">
+                                <div class="items__laptop3 items__laptop">
+                                    <div class="laptop3__image laptop__image">
+                                        <img src="./images/notebook3.png" alt="laptop">
+                                    </div>
+                                    <h4 class="laptop3__label laptop__label">
+                                        viro media players ui
+                                    </h4>
+                                </div>
+                                <div class="items__laptop4 items__laptop">
+                                    <div class="laptop4__image laptop__image">
+                                        <img src="./images/notebook4.png" alt="laptop">
+                                    </div>
+                                    <h4 class="laptop4__label laptop__label">
+                                        blog / magazine flat ui kit
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="portfolio__items_button">
+                            load more projects
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 6,, what people say about us
+        -->
+        <div class="comments">
+            <div class="wrapper">
+                <div class="comments__content">
+                    <div class="comments__titles">
+                        <h2 class="comments__titles_heading heading">
+                            what people say about us
+                        </h2>
+                        <h3 class="comments__titles_subheading subheading">
+                            Our clients love us!
+                        </h3>
+                    </div>
+                    <div class="comments__pieces">
+                        <div class="comments__pieces_line1">
+                            <div class="comments__piece1 comments__piece">
+                                <div class="piece1__image comments__piece_image">
+                                    <img src="./images/userphoto1.jpg" alt="girl">
+                                </div>
+                                <div class="piece1__text comments__piece_text">
+                                    <p class="piece1__usercomment piece__usercomment">
+                                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        Voluptatum enim vel suscipit."
+                                    </p>
+                                    <div class="piece1__usernameprof piece__usernameprof">
+                                        <h4 class="piece1__username piece__username">
+                                            channel iman
+                                        </h4>
+                                        <h5 class="piece1__userprofession piece__userprofession">
+                                            CEO of Pinterest
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comments__piece2 comments__piece">
+                                <div class="piece2__image comments__piece_image">
+                                    <img src="./images/userphoto2.jpg" alt="">
+                                </div>
+                                <div class="piece2__text comments__piece_text">
+                                    <p class="piece2__usercomment piece__usercomment">
+                                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        Voluptatum enim vel suscipit."
+                                    </p>
+                                    <div class="piece2__usernameprof piece__usernameprof">
+                                        <h4 class="piece2__username piece__username">
+                                            adriana lima
+                                        </h4>
+                                        <h5 class="piece2__userprofession piece__userprofession">
+                                            Founder of Instagram
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comments__pieces_line2">
+                            <div class="comments__piece3 comments__piece">
+                                <div class="piece3__image comments__piece_image">
+                                    <img src="./images/userphoto3.jpg" alt="">
+                                </div>
+                                <div class="piece3__text comments__piece_text">
+                                    <p class="piece3__usercomment piece__usercomment">
+                                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        Voluptatum enim vel suscipit."
+                                    </p>
+                                    <div class="piece3__usernameprof piece__usernameprof">
+                                        <h4 class="piece3__username piece__username">
+                                            christine rivera
+                                        </h4>
+                                        <h5 class="piece3__userprofession piece__userprofession">
+                                            Lead Designer at Behanche
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comments__piece4 comments__piece">
+                                <div class="piece4__image comments__piece_image">
+                                    <img src="./images/userphoto4.jpg" alt="">
+                                </div>
+                                <div class="piece4__text comments__piece_text">
+                                    <p class="piece4__usercomment piece__usercomment">
+                                        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                        Voluptatum enim vel suscipit."
+                                    </p>
+                                    <div class="piece4__usernameprof piece__usernameprof">
+                                        <h4 class="piece4__username piece__username">
+                                            emma stone
+                                        </h4>
+                                        <h5 class="piece4__userprofession piece__userprofession">
+                                            Co-Founder of Shazam
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            section 7,, get in touch
+        -->
+        <div class="touch">
+            <div class="wrapper">
+                <div class="touch__content">
+                    <div class="touch__titles">
+                        <h2 class="touch__titles_heading heading">
+                            get in touch
+                        </h2>
+                        <h3 class="touch__titles_subheading subheading">
+                            1600 Pennsylvania Ave NW, Washington, DC 20500,
+                            United States of America. Tel:(202) 456-1111
+                        </h3>
+                    </div>
+                    <form action="#" class="touch__form">
+                        <div class="touch__form_userinfo">
+                            <input type="text" name="name" id="test" class="form__userinfo_name" placeholder="Your Name*" required>
+                            <input type="email" name="email" class="form__userinfo_email" placeholder="Your Email*" required>
+                        </div>
+                        <textarea name="message" rows="7" class="touch__form_textarea" placeholder="Your Message*" required></textarea>
+                        <button class="touch__form_submit">send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer__content">
+                <a href="#" class="footer__link">Facebook</a>
+                <a href="#" class="footer__link">Twitter</a>
+                <a href="#" class="footer__link">Google+</a>
+                <a href="#" class="footer__link">LinkedIn</a>
+                <a href="#" class="footer__link">Behance</a>
+                <a href="#" class="footer__link">Dribbble</a>
+                <a href="#" class="footer__link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+@media only screen and (max-width: 1100px) {
+    .wrapper {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .touch__titles_subheading {
+        font-size: 16.5px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /*
+    *** header
+    */
+    .header__navigation {
+        display: none;
+    }
+    .header__burgermenu {
+        display: block;
+    }
+
+    /*
+    * greeting
+    */
+    .greeting__text > br {
+        display: none;
+    }
+
+    /*
+    * services
+    */
+    .services__content_servicekinds {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .serviceskinds__servicebox1,
+    .serviceskinds__servicebox2 {
+        width: 90%;
+        justify-content: space-around;
+    }
+    .serviceskinds__servicebox2 {
+        margin-top: 50px;
+    }
+    .serviceskinds__service {
+        border: solid 2px #fff;
+        width: 40%;
+        padding: 5% 0;
+    }
+
+    /*
+    * team
+    */
+    .team__members {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team__memberbox1,
+    .team__memberbox2 {
+        width: 90%;
+        justify-content: space-around;
+    }
+    .team__memberbox2 {
+        margin-top: 50px;
+    }
+    .team__member {
+        width: 40%;
+        border: solid 2px #30bae7;
+        padding: 5% 0;
+    }
+
+    /*
+    * what people say about us
+    */
+    .comments__pieces_line1,
+    .comments__pieces_line2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .comments__pieces_line2 {
+        margin-top: 60px;
+    }
+    .comments__pieces_line1 > :nth-child(2),
+    .comments__pieces_line2 > :nth-child(2) {
+        margin-top: 60px;
+    }
+    .comments__piece {
+        width: 90%;
+    }
+    .comments__piece_image {
+        width: 20%;
+    }
+    .piece__usercomment {
+        max-width: unset;
+    }
+
+    /*
+    * skills
+    */
+    .skills__diagrams {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skill__daigrambox1,
+    .skill__daigrambox2 {
+        width: 90%;
+        justify-content: space-around;
+    }
+    .skill__daigrambox2 {
+        margin-top: 60px;
+    }
+    .skill__diagram1,
+    .skill__diagram2,
+    .skill__diagram3,
+    .skill__diagram4 {
+        width: 40%;
+        padding: 5%;
+    }
+    .diagram__percent {
+        top: 35%;
+    }
+    .skill__diagram1 {
+        border: solid 2px #eb7d4b;
+    }
+    .skill__diagram2 {
+        border: solid 2px #30bae7;
+    }
+    .skill__diagram3 {
+        border: solid 2px #d74680;
+    }
+    .skill__diagram4 {
+        border: solid 2px #15c7a8;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    /*
+    * greeting
+    */
+    .greeting__text {
+        font-size: 38px;
+    }
+
+    /*
+    * portfolio
+    */
+    .items__line1,
+    .items__line2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .items__line2 {
+        margin-top: 40px;
+    }
+    .items__laptop2 {
+        margin-top: 40px;
+    }
+    .items__laptop4 {
+        margin-top: 40px;
+    }
+    .items__laptop {
+        width: 100%;
+    }
+
+    /*
+    * get in touch
+    */
+    .touch__form_userinfo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form__userinfo_name,
+    .form__userinfo_email {
+        width: 100%;
+    }
+    .form__userinfo_email {
+        margin-top: 30px;
+    }
+
+    /*
+    * meet our team
+    */
+    .team__memberbox1,
+    .team__memberbox2 {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .team__memberbox2 {
+        margin-top: 40px;
+    }
+    .team__memberbox2 > :nth-child(2) {
+        margin-top: 40px;
+    }
+    .team__memberbox1 > :nth-child(2) {
+        margin-top: 40px;
+    }
+    .team__member {
+        flex-direction: row;
+        width: 100%;
+        padding: 5%;
+        justify-content: space-around;
+    }
+    .member__photo {
+        width: 50%;
+    }
+    .member__text {
+        /* width: 45%; */
+        padding-left: 15px;
+    }
+    .member__description {
+        max-width: unset;
+    }
+    .member__nameprof {
+        margin: 0;
+    }
+    /*
+    * services
+    */
+    .serviceskinds__servicebox1,
+    .serviceskinds__servicebox2 {
+        flex-direction: column;
+    }
+    .serviceskinds__servicebox1 > :nth-child(2) {
+        margin-top: 50px;
+    }
+    .serviceskinds__servicebox2 > :nth-child(2) {
+        margin-top: 50px;
+    }
+    .serviceskinds__service {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .service__text {
+        margin: 0;
+    }
+    /*
+    * comments
+    */
+    .comments__piece {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px #ffdd99;
+        padding: 25px 0;
+    }
+    .comments__piece_text {
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .comments__piece_image  {
+        width: 40%;
+    }
+    .piece__usernameprof {
+        align-items: center;
+        justify-content: center;
+    }
+    .piece__usercomment,
+    .piece__userprofession,
+    .piece__username {
+        text-align: center;
+    }
+    /*
+    * skills
+    */
+    .skill__daigrambox1,
+    .skill__daigrambox2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skill__daigrambox2 {
+        margin-top: 20px;
+    }
+    .skill__daigrambox1 > :nth-child(2) {
+        margin-top: 20px;
+    }
+    .skill__daigrambox2 > :nth-child(2) {
+        margin-top: 20px;
+    }
+    .skill__diagram1,
+    .skill__diagram2,
+    .skill__diagram3,
+    .skill__diagram4 {
+        width: 100%;
+    }
+
+    /*
+    * commons
+    */
+    .heading {
+        font-size: 32px;
+    }
+    .subheading {
+        font-size: 16px;
+    } 
+}
+
+@media only screen and (max-width: 700px) {
+    /*
+    * meet our beatiful team
+    */
+    .team__member {
+        flex-direction: column;
+    }
+    .member__nameprof {
+        margin-top: 20px;
+    }
+
+    /*
+    *** footer
+    */
+    .footer__content {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer__content > :nth-child(2n) {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    /*
+    * greeting
+    */
+    .greeting__text {
+        font-size: 32px;
+    }
+   
+    /*
+    * portfolio
+    */
+    .portfolio__items_nav > ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .portfolio__items_nav > ul > :nth-child(n) {
+        margin: 0;
+    }
+    .portfolio__items_nav > ul > :nth-child(2) {
+        margin: 10px 0
+    }
+    .portfolio__items_nav > ul > :nth-child(4) {
+        margin-top: 10px;
+    }
+   
+    /*
+    * team
+    */
+    .member__photo  {
+        width: 60%;
+    }
+   
+    /*
+    * comments
+    */
+    .comments__piece {
+        width: 100%;
+    }
+    .comments__piece_image {
+        width: 50%;
+    }
+    .piece__usercomment {
+        font-size: 17px;
+    }
+    .piece__username {
+        font-size: 20px;
+    }
+    .piece__userprofession {
+        font-size: 15px;
+    }
+   
+    /*
+    * services
+    */
+    .serviceskinds__servicebox1, .serviceskinds__servicebox2 {
+        width: 100%;
+    }
+    .serviceskinds__service {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service__text {
+        margin-top: 32px;
+    }
+    .service__description {
+        max-width: 80%;
+    }
+    /*
+    * touch
+    */
+    .touch__content {
+        padding: 0;
+    }
+    .touch__form_submit {
+        font-size: 15px;
+    }
+    .touch__form_submit  {
+        padding: 28px 65px;
+    }
+    
+
+    /*
+    * commons
+    */
+    .heading {
+        font-size: 28px;
+    }
+    .subheading {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /*
+    * greeting
+    */
+    .greeting__text {
+        font-size: 24px;
+    }
+
+    /*
+    * members
+    */
+    .member__photo {
+        width: 70%;
+    }
+    
+    /*
+    * comments
+    */
+    .comments__titles_heading::after {
+        left: 38%;
+    }
+    .comments__piece_image  {
+        width: 60%;
+    }
+
+
+    /*
+    * commons
+    */
+    .heading  {
+        font-size: 22px;
+    }
+    .subheading {
+        font-size: 13px;
+    }
+
+    /*
+    * seperate paddings on 2
+    */
+    .greeting {
+        padding: 41px 0 69px;
+    }
+    .services,
+    .team,
+    .skills,
+    .portfolio,
+    .comments,
+    .touch {
+        padding: 60px 0 65px;
+    }
+    
+}
+
+@media only screen and (max-width: 330px) {
+    /*
+    * touch
+    */
+    .touch__form_submit {
+        padding: 28px 60px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    /*
+    * team
+    */
+    .member__photo {
+        width: 75%;
+    }
+
+    /*
+    * comments
+    */
+    .comments__piece_image {
+        width: 65%;
+    }
+}
